@@ -1,0 +1,17 @@
+{
+  "appId": "com.sinhalagrammar.beginners",
+  "appName": "Sinhala Grammar",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#1F3A5F"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}

@@ -43,8 +43,12 @@ This APK is signed with a temporary debug key. It installs and works normally, b
   screen, the Privacy Policy and the Terms page then show it, and a "Send feedback" button appears.
   It is left empty on purpose so that no address is published without your choice.
 * `www/privacy.html` and `www/terms.html` are ready-made pages. The Play Store asks for a web address for the
-  privacy policy: turn on GitHub Pages for the repository (Settings, Pages, deploy from the `www` folder or
-  copy `www` to a `docs` folder) and use `https://YOUR-NAME.github.io/YOUR-REPO/privacy.html`.
+  privacy policy. Turn on GitHub Pages: Settings, Pages, *Deploy from a branch*, branch `main`, and folder
+  **`/docs`** (a ready copy of the app is included there). The address is then
+  `https://YOUR-NAME.github.io/YOUR-REPO/` and the privacy policy is `.../privacy.html`.
+  If you choose folder `/ (root)` instead, the page redirects to `www/`, and the policy is `.../www/privacy.html`.
+  GitHub's Pages can only serve `/` or `/docs`, never `/www` directly. Wait 1 to 2 minutes after saving.
+  If you change anything inside `www`, copy it again into `docs`.
 
 ## Try it in a browser first
 
